@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navigator.clipboard.writeText(email).then(() => {
                 // Show feedback
                 const originalText = this.textContent;
-                this.textContent = '[ Copied ]';
+                this.textContent = '[ copied ]';
                 
                 setTimeout(() => {
                     this.textContent = originalText;
