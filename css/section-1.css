@@ -1,0 +1,117 @@
+#section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #351b2b;
+
+    position: relative;
+}
+#section-1 .content {
+    position: absolute;
+    height: 100vh;
+
+    width: 35%;
+    padding-left: 120px;
+}
+
+/* TEXT */
+#section-1 .text {
+    position: absolute;
+    top: 15%;
+
+    width: 100%;
+    display: flex; flex-direction: column; gap: 24px;
+}
+#section-1 .text .title {
+    display: flex; gap: 24px;
+    align-items: center;
+
+    font-family: 'Gameplay';
+    letter-spacing: 1px;
+    
+}
+#section-1 .title .main {
+    padding-block: 20px;
+    padding-inline: 40px;
+    
+
+    color: #dfcdca;
+    font-size: 120px; font-weight: bold;
+    letter-spacing: 12px; text-align: center; justify-items: center;
+
+    background-color: #894e6e;
+}
+#section-1 .title .secondary {
+    padding-top: 12px;
+
+    color: #dfcdca;
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+#section-1 .text .sub {
+    color: #dfcdca;
+    font-size: 28px;
+
+    font-family: 'Gameplay';
+    letter-spacing: 2px;
+}
+/* EMAIL */
+#section-1 .email {
+    position: absolute; bottom: 25%;
+    align-items: center; justify-content: center;
+
+    width: 100%;
+    color: #dfcdca;
+}
+#section-1 .email .button {
+    padding-block: 10px;
+    padding-inline: 40px;
+    background-color: #894e6e;
+
+    color: #351b2b;
+    font-family: 'Gameplay';
+    font-size: 24px; letter-spacing: 4px;
+    text-align: center;
+
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+#section-1 .email .button:hover {
+    color: #894e6e;
+    background-color: #dfcdca;
+    transform: scale(1.05);
+}
+/* BUTTONS */
+#section-1 .buttons {
+    position: absolute;
+    bottom: 15%;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+#section-1 .buttons .button {
+    padding: 12px 12px;
+
+    color: #894e6e;
+    font-family: 'Gameplay';
+    font-size: 24px; letter-spacing: 2px;
+
+    cursor: pointer;
+    transition: 0.1s ease-out;
+    text-decoration: none;
+}
+#section-1 .buttons .button:hover {
+    background-color: #894e6e;
+    padding: 12px 48px;
+
+    color: #dfcdca;
+}
+#section-1 .model {
+    position: absolute;
+    width: 50vw;
+    justify-self: right;
+    justify-items: center;
+    height: 100vh;
+    background-color: #e7dfd5;
+}

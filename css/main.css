@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: block;
+    margin: 0; padding: 0;
+    background-color: #351b2b;
+
+    font-family: 'Gameplay', sans-serif;
+
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+* { scrollbar-width: none; }
+::-webkit-scrollbar { display: none; }
+
+/* SECTIONS */
+#section-1 { height: 100vh; flex: 1; }
+#section-2 { height: 100vh; flex: 1; }
+#section-3 { height: 100vh; flex: 1; }

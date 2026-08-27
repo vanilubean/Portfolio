@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'BarberChop';
+  src: url('/assets/fonts/BarberChop.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'SundayBest';
+  src: url('/assets/fonts/Sunday\ Best.ttf') format('TrueType');
+}
+
+@font-face {
+  font-family: 'CreatoDisplayM';
+  src: url('/assets/fonts/CreatoDisplay-Medium.otf') format('OpenType');
+}
+@font-face {
+  font-family: 'ModernRomance';
+  src: url('/assets/fonts/Modern\ Romance.otf') format('OpenType');
+}
+@font-face {
+  font-family: 'Impact';
+  src: url('/assets/fonts/Impact.ttf') format('TrueType');
+}
+
+
+
+@font-face {
+  font-family: 'Gameplay';
+  src: url('/assets/fonts/Gameplay.ttf') format('TrueType');
+}
+@font-face {
+  font-family: 'VHS';
+  src: url('/assets/fonts/vhs-vcr-osd.ttf') format('TrueType');
+}
+@font-face {
+  font-family: 'MonsterFriend';
+  src: url('/assets/fonts/MonsterFriendFore.otf') format('OpenType');
+}
